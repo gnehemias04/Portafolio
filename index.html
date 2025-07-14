@@ -3,57 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gnehemias</title>
+    <title>Gabriel Rengifo Portafolio</title>
     <link rel="stylesheet" href="./gnehemias/output.css" />
     
   </head>
 
-  <body class="w-screen h-screen bg-[#140f07]">
+  <body id="home" class="w-full h-screen bg-black">
 
-    <div class=" hidden
-      bg-[#140f07] 
-      bg-[#10314b] 
-      bg-[#0976a9] 
-      bg-[#07c1ff]  
-      bg-[#0ffff8] 
-      "></div>
-
-
-
-
-    <header class=" flex justify-evenly items-center bg-[#10314b] w-screen h-[12%] sticky top-0 opacity-90 hover:opacity-100">
+  
+    <header class=" flex justify-evenly items-center  bg-[#10314b] w-full h-[12%] sticky top-0 opacity-90 hover:opacity-100">
 
       <img 
-      class="rounded-full w-[96px]"
+      class="rounded-full h-[80%]"
       src="./img/logowhite.png" alt="logo timon">
 
       <img 
-      class="hidden min-[380px]:flex rounded-2xl w-[194px]"
+      class= "hidden sm:flex rounded-2xl h-[70%] "
       src="./img/timonwhite.png" alt="">
 
-      <svg class="w-[48px] h-[48px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+
+      <nav class="bg-gray-700  border-white text-[0px] cursor-pointer hover:bg-white hover:text-4xl transition-transform duration-300 lg:hidden">
+
+      <svg class="w-[48px] h-[48px]  text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
       <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
       </svg>
+      
+
+      <ul class="text-center">
+       <a href="#home"> <li>Home</li></a>
+        <hr>
+        <a href="#skills"><li>Skills</li></a>
+        <hr>
+        <a href="#projects"><li>Projects</li></a>
+        <hr>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+      
+    </nav>
+
+   <ul class=" gap-4 hidden lg:flex text-2xl text text-[#10314b]">
+   <a href="#home"><li class="bg-white rounded-2xl p-1 hover:scale-110 transition-transform duration-300">Home</li></a>
+    <a href="#skills"><li class="bg-white rounded-2xl p-1 hover:scale-110 transition-transform duration-300">Skills</li></a>
+    <a href="#projects"><li class="bg-white rounded-2xl p-1 hover:scale-110 transition-transform duration-300">Projects</li></a>
+    <a href="#contact"><li class="bg-white rounded-2xl p-1 hover:scale-110 transition-transform duration-300">Contact</li></a>
+   </ul>
 
     </header>
 
 
 
     <main>
-      <section class="hero-section h-[25%] flex justify-center items-center flex-col mx-4 p-5 rounded-2xl bg-[#0976a9]/90  border-2 border-[#140f07]">
+      <section class="hero-section h-[25%] flex justify-center items-center flex-col m-4 p-5 rounded-2xl  bg-[url(https://freshlounge.wordpress.com/wp-content/uploads/2015/04/ondas_de_sonido_a_colores.gif)]  bg-center bg-cover">
+        <div class="flex flex-col lg:flex-row lg:gap-[20%] items-center justify-center">
         <img 
-        class="w-[70%]  bg-gray-950/50 rounded-full mt-4"
+        class="w-[70%] lg:w-[40%]  bg-gray-800/50 rounded-full mt-4"
         src="./img/WhatsApp Image 2025-07-03 at 19.07.08_a685e236.png" alt="retrato">
 
-        <h1 class="text-3xl min-[400px]:text-4xl font-bold text-white my-10 ">I'm Gabriel Rengifo</h1>
-
-        <h2 class="text-2xl  text-white flex justify-center my-10 items-center mx-5">Front-end Developer</h2>
-
+        <h1 class=" text-4xl sm:text-6xl lg:text-8xl font-bold text-white my-10 hover:scale-120 transition-transform duration-300" 
+        >I'm <br> Gabriel Rengifo</h1>
+           </div>
+        
+         <div class="text-white flex text-3xl font-bold ">
+        <p class="hover:scale-150 transition-transform duration-100">F</p>
+         <p class="hover:scale-150 transition-transform duration-100">r</p>
+         <p class="hover:scale-150 transition-transform duration-100">o</p>
+         <p class="hover:scale-150 transition-transform duration-100">n</p>
+         <p class="hover:scale-150 transition-transform duration-100">t</p>
+         <p class="hover:scale-150 transition-transform duration-100">_</p>
+         <p class="hover:scale-150 transition-transform duration-100">e</p>
+         <p class="hover:scale-150 transition-transform duration-100">n</p>
+         <p class="hover:scale-150 transition-transform duration-100">d</p>
+         <p class="hover:scale-150 transition-transform duration-100">_</p>
+         <p class="hover:scale-150 transition-transform duration-100"> D</p>
+         <p class="hover:scale-150 transition-transform duration-100">e</p>
+         <p class="hover:scale-150 transition-transform duration-100">v</p>
+         <p class="hover:scale-150 transition-transform duration-100">a</p>
+         <p class="hover:scale-150 transition-transform duration-100">l</p>
+         <p class="hover:scale-150 transition-transform duration-100">o</p>
+         <p class="hover:scale-150 transition-transform duration-100">p</p>
+         <p class="hover:scale-150 transition-transform duration-100">e</p>
+         <p class="hover:scale-150 transition-transform duration-100">r</p>
+         </div>
         <a 
-        class="my-4 text-white hover:text-gray-800"
-        href="">
+        class="my-4 text-white hover:scale-150 transition-transform duration-300"
+        href="#projects">
           <svg class="w-[48px] h-[48px]  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 8H4m4 6h8m0 0-2-2m2 2-2 2M4 6v13a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-5.032a1 1 0 0 1-.768-.36l-1.9-2.28a1 1 0 0 0-.768-.36H5a1 1 0 0 0-1 1Z"/>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 8H4m4 6h8m0 0-2-2m2 2-2 2M4 6v13a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-5.032a1 1 0 0 1-.768-
+          .36l-1.9-2.28a1 1 0 0 0-.768-.36H5a1 1 0 0 0-1 1Z"/>
           </svg>
           <p>Projects</p>
          </a>
@@ -61,88 +97,167 @@
 
 
 
+      <section id="skills" class="skills-section h-[25%]  flex justify-center items-center flex-col lg:grid lg:grid-cols-2 mx-4 my-5 p-5 gap-4 rounded-2xl text-white bg-[#10314b]/90 border-2 border-[#140f07]">
+        <h3 class="text-4xl m-10 font-bold lg:col-span-2 text-center">Skills and Tools</h3>
 
-      <section class="skills-section h-[25%]  flex justify-center items-center flex-col mx-4 my-5 p-5 rounded-2xl text-white bg-[#10314b]/90 border-2 border-[#140f07]">
-        <h3 class="text-4xl m-10 font-bold">Skills</h3>
-
-        <div class="grid grid-cols-2 bg-gray-950/50 p-2 rounded-2xl place-items-center gap-4 w-full">
+        <img class="hidden lg:flex h-full w-full bg-gray-950/50 p-4 rounded-2xl " src="./img/2.png" alt="">
+        <div class="w-full ">
+        
+        <div class="grid grid-cols-2 bg-gray-950/50 p-10 rounded-2xl place-items-center gap-10 w-full h-full">
           
-        <img src="./img/html.png" alt="">
-        <p>html Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+          <img src="./img/react.png" alt="">
 
-        <p>css Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+          <img class="rounded-full " src="./img/vs studiopng.png" alt="">
+
+        <img src="./img/html.png" alt="">
+        
         <img src="./img/css.png" alt="">
         
 
         <img src="./img/js.png" alt="">
-        <p>javascript Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        
 
-        <p>tailwind Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+        
         <img class="w-[105px] bg-gray-800 rounded-full p-3" src="./img/Tailwind CSS.png" alt="">
         
 
          </div>
-         <div class="grid grid-cols-5 w-full bg-gray-950/50 rounded-2xl  my-5 p-2">
+         
+         <div class="grid w-full h-full bg-gray-950/50 rounded-2xl mt-4   p-2">
 
-         <div class="  my-5 p-2 place-items-center gap-4 w-full col-span-4">
+         <div class="  my-5 p-2 place-items-center gap-4 w-full ">
           <p>Spoken Languages</p>
           <img class="w-[24px]" src="./img/argentina.png" alt=""> 
           <p>Spanish Native</p>
           <img class="w-[24px]" src="./img/brasil.png" alt=""> 
           <p>Portugues near-native fluency</p>
           <img class="w-[24px]" src="./img/estados-unidos-de-america.png" alt=""> 
-          <p>English upper intermediate</p>
+          <p>English intermediate</p>
          </div>
 
-         <div class="flex flex-col justify-center items-center  my-5 p-2">
-         <a class="hover:text-gray-800 hover:bg-white rounded-full p-4" href="">
+         <div class="w-full flex flex-col justify-center items-center my-5 p-2">
+         <a class="hover:text-gray-800 hover:bg-white rounded-full hover:transition-transform duration-300 p-4" href="./img/CV_Gabriel_Rengifo_actualizado.pdf">
           <svg class="w-[48px] h-[48px]  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1
+           1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1
+           1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/>
           </svg> <p>Resume</p>
           </a>
          </div>
+         
+         </div>
+
+         
 
          </div>
       </section>
 
-      <section class=" projects-section border-2 border-[#140f07]">
-        <h4 class="text-2xl">
-          projects
+      <section id="projects" class=" projects-section w-full  bg-[#10314b]/90  my-5 p-5  border-2 border-[#140f07]">
+        <div class="flex items-center justify-center my-5">
+        <h4 class="text-white text-4xl font-bold">
+          Projects
         </h4>
-        <img src="./img/Diseño sin título.png" alt="">
+        </div>
+
+        <div class="projects-card flex overflow-x-scroll w-full gap-10 lg:grid lg:grid-cols-3 ">
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+          <a href="https://gnehemias04.github.io/Funval3/">
+          <img src="./img/My first portfolio.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">My First Portfolio</p>
+          </a>
+        </div>
+
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+          
+          <a href="https://gnehemias04.github.io/Funval3/Dia-9/index.html"><img src="./img/perritos.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">Huellitas Refugio Animal</p>
+          </a>
+        </div>
+
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+          <a href="https://gnehemias04.github.io/Funval3/Dia-4/index.html">
+          <img src="./img/practica calificada autosuficiencia.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">Sea Autosuficiente</p>
+          
+          </a>
+
+        </div>
+
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+         <a href="https://gnehemias04.github.io/Funval3/Dia-3/index.html">
+          <img src="./img/Practica calificada Instagram.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">Instagram Login</p>
+          </a>
+        </div>
+
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+          <a href="https://gnehemias04.github.io/Funval3/Dia-2/index.html">
+          <img src="./img/Practica Calificada 1.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">My First Landing page</p>
+          </a>
+        </div>
+
+        <div class="bg-black/50 p-2 shrink-0 w-full rounded-2xl flex flex-col justify-center items-center hover:scale-90 transition-transform duration-300">
+          <a href="https://gnehemias04.github.io/Funval3/Dia-10/index.html">
+          <img src="./img/bibliotecasite.png" alt="">
+          <p class="text-xl text-white my-3 flex justify-center">Book House</p>
+          </a>
+        </div>
+
+
       </section>
 
     </main>
 
 
-    <footer>
-      <p>correo</p>
-      <input type="text" placeholder="send a message">
-
-      <ul> 
-        <li class="lal"> <a class="amen" href="https://github.com/gnehemias04"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
-        <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
+    <footer id="contact" class="flex flex-col pb-5 md:grid md:grid-cols-2">
+       <ul class="flex justify-center items-center gap-3 "> 
+        <li class="lal hover:scale-140"> <a class="amen" href="https://github.com/gnehemias04"><svg class="w-6 h-6 md:w-15 md:h-15 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" 
+          height="48" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.0122.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
         </svg>
         </a></li>
        
-        <li class="lal" ><a  class="amen"href="https://www.linkedin.com/in/gabriel-rengifo-14aa7a36b?utm_source=share&utm_
-            campaign=share_via&utm_content=profile&utm_medium=android_app"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+        <li class="lal hover:scale-140" ><a  class="amen"href="https://www.linkedin.com/in/gabriel-rengifo-14aa7a36b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg class="w-6 h-6 md:w-15 md:h-15 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+             viewBox="0 0 24 24">
         <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
         <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
         </svg>
         </a> </li>
 
-        <li class="lal" ><a  class="amen" href="https://wa.me/541170153125"> <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24">
+        <li class="lal hover:scale-140" ><a  class="amen" href="https://wa.me/541170153125"> <svg class="w-6 h-6 md:w-15 md:h-15 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" 
+          fill="none" viewBox="0 0 24 24">
         <path fill="currentColor" fill-rule="evenodd" d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z" clip-rule="evenodd"/>
         <path fill="currentColor" d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1.008 1.008 0 0 0-.34-.075c-.196 0-.362.098-.49.291-.146.217-.587.732-.723.886-.018.02-.042.045-.057.045-.013 0-.239-.093-.307-.123-1.564-.68-2.751-2.313-2.914-2.589-.023-.04-.024-.057-.024-.057.005-.021.058-.074.085-.101.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711-.158-.377-.366-.552-.655-.552-.027 0 0 0-.112.005-.137.005-.883.104-1.213.311-.35.22-.94.924-.94 2.16 0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537 1.412.564 2.081.63 2.461.63.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276.192-.534.243-1.117.115-1.329-.088-.144-.239-.216-.43-.308Z"/>
         </svg>
         </a></li>
        
-        <li class="lal" ><a class="amen" href="mailto:gnehemias04@gmail.com"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+        <li class="lal hover:scale-140" ><a class="amen" href="mailto:gnehemias04@gmail.com"><svg class="w-6 h-6 md:w-15 md:h-15 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" 
+          fill="currentColor" viewBox="0 0 24 24">
         <path d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z"/>
         </svg>
         </a></li>
          </ul>
+      
+     <form
+class="flex flex-col justify-center items-center gap-5 my-5"
+  action="https://formspree.io/f/xgvzwerr"
+  method="POST"
+>
+  <label class="bg-white">
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label class="bg-white rounded-xl  focus:bg-white cursor-pointer">
+    Your message:
+    <textarea class=" bg-white " name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button class="bg-white p-2 rounded-2xl cursor-pointer" type="submit">Send</button>
+</form>
+      <!-- modify this form HTML and place wherever you want your form -->
+
+     
     </footer>
 
   </body>
