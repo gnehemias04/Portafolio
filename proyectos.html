@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Rengifo Portafolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./gnehemias/output.css" />
-    <script type="module" src="./main.js" defer></script>
+    <script src="./proyectos.js" defer></script>
   </head>
-
-  <body id="home" class="w-full h-screen dark:bg-black">
+  <body class="w-full h-screen dark:bg-black">
     <header
       class="flex justify-evenly items-center bg-blue-300 dark:bg-[#10314b] w-full h-[12%] sticky top-0 opacity-90 hover:opacity-100"
     >
@@ -56,18 +55,11 @@
       </button>
 
       <ul class="gap-4 hidden lg:flex text-2xl text text-[#10314b]">
-        <a href="#home"
+        <a href="./index.html"
           ><li
             class="text-white font-bold rounded-2xl p-1 hover:scale-110 transition-transform duration-300"
           >
             Home
-          </li></a
-        >
-        <a href="#skills"
-          ><li
-            class="text-white font-bold rounded-2xl p-1 hover:scale-110 transition-transform duration-300"
-          >
-            Skills
           </li></a
         >
         <a href="./proyectos.html"
@@ -86,13 +78,12 @@
         >
       </ul>
     </header>
-
     <div
       id="dropdown"
       class="w-full h-24 hidden lg:hidden justify-center items-center text-2xl text-white font-bold"
     >
       <ul class="w-full text-center">
-        <a href="#home">
+        <a href="./index.html">
           <li
             class="bg-blue-800/50 hover:scale-120 transition-transform duration-300"
           >
@@ -100,15 +91,9 @@
           </li></a
         >
         <hr />
-        <a href="#skills"
-          ><li
-            class="bg-blue-800/50 hover:scale-120 transition-transform duration-300"
-          >
-            Skills
-          </li></a
-        >
+
         <hr />
-        <a href="./proyectos.html"
+        <a href="#projects"
           ><li
             class="bg-blue-800/50 hover:scale-120 transition-transform duration-300"
           >
@@ -126,149 +111,19 @@
       </ul>
     </div>
 
-    <main>
-      <section
-        class="hero-section h-[25%] flex justify-center items-center flex-col m-4 p-5 rounded-2xl bg-[url(https://freshlounge.wordpress.com/wp-content/uploads/2015/04/ondas_de_sonido_a_colores.gif)] bg-center bg-cover"
-      >
-        <div
-          class="flex flex-col lg:flex-row lg:gap-[20%] items-center justify-center"
-        >
-          <img
-            class="w-[70%] lg:w-[40%] bg-gray-800/50 rounded-full mt-4"
-            src="./img/WhatsApp Image 2025-07-03 at 19.07.08_a685e236.png"
-            alt="retrato"
-          />
+    <section
+      id="projects"
+      class="projects-section w-full bg-blue-300 dark:bg-[#10314b]/90 my-5 p-5 border-2 border-[#140f07]"
+    >
+      <div class="flex items-center justify-center my-5">
+        <h4 class="text-white text-4xl font-bold">Projects</h4>
+      </div>
 
-          <h1
-            class="text-4xl sm:text-6xl lg:text-8xl font-bold text-white my-10 hover:scale-120 transition-transform duration-300"
-          >
-            I'm <br />
-            Gabriel Rengifo
-          </h1>
-        </div>
-
-        <div class="text-white flex text-3xl font-bold">
-          <p class="hover:scale-150 transition-transform duration-100">F</p>
-          <p class="hover:scale-150 transition-transform duration-100">r</p>
-          <p class="hover:scale-150 transition-transform duration-100">o</p>
-          <p class="hover:scale-150 transition-transform duration-100">n</p>
-          <p class="hover:scale-150 transition-transform duration-100">t</p>
-          <p class="hover:scale-150 transition-transform duration-100">_</p>
-          <p class="hover:scale-150 transition-transform duration-100">e</p>
-          <p class="hover:scale-150 transition-transform duration-100">n</p>
-          <p class="hover:scale-150 transition-transform duration-100">d</p>
-          <p class="hover:scale-150 transition-transform duration-100">_</p>
-          <p class="hover:scale-150 transition-transform duration-100">D</p>
-          <p class="hover:scale-150 transition-transform duration-100">e</p>
-          <p class="hover:scale-150 transition-transform duration-100">v</p>
-          <p class="hover:scale-150 transition-transform duration-100">a</p>
-          <p class="hover:scale-150 transition-transform duration-100">l</p>
-          <p class="hover:scale-150 transition-transform duration-100">o</p>
-          <p class="hover:scale-150 transition-transform duration-100">p</p>
-          <p class="hover:scale-150 transition-transform duration-100">e</p>
-          <p class="hover:scale-150 transition-transform duration-100">r</p>
-        </div>
-        <a
-          class="my-4 text-white hover:scale-150 transition-transform duration-300"
-          href="./proyectos.html"
-        >
-          <svg
-            class="w-[48px] h-[48px] dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M13.5 8H4m4 6h8m0 0-2-2m2 2-2 2M4 6v13a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-5.032a1 1 0 0 1-.768-
-          .36l-1.9-2.28a1 1 0 0 0-.768-.36H5a1 1 0 0 0-1 1Z"
-            />
-          </svg>
-          <p>Projects</p>
-        </a>
-      </section>
-
-      <section
-        class="skills-section h-[25%] flex justify-center items-center flex-col lg:grid lg:grid-cols-2 mx-4 my-5 p-5 gap-4 rounded-2xl bg-blue-300 dark:bg-[#10314b]/90 border-2 border-[#140f07]"
-      >
-        <h3
-          class="text-4xl text-white m-10 font-bold lg:col-span-2 text-center"
-        >
-          Skills and Tools
-        </h3>
-
-        <img
-          class="hidden lg:flex h-full w-full bg-black/20 dark:bg-gray-950/50 p-4 rounded-2xl"
-          src="./img/2.png"
-          alt=""
-        />
-        <div class="w-full">
-          <div
-            id="skills"
-            class="relative grid grid-cols-2 bg-black/20 dark:bg-gray-950/50 p-10 rounded-2xl place-items-center gap-10 w-full h-full"
-          >
-            <div
-              id="modal"
-              class="absolute bg-white text-center p-6 border-2 rounded-2xl hidden flex-col"
-            ></div>
-          </div>
-
-          <div
-            class="grid w-full h-full text-white bg-black/20 dark:bg-gray-950/50 rounded-2xl mt-4 p-2"
-          >
-            <div class="my-5 p-2 place-items-center gap-4 w-full">
-              <p>Spoken Languages</p>
-              <img class="w-[24px]" src="./img/argentina.png" alt="" />
-              <p>Spanish Native</p>
-              <img class="w-[24px]" src="./img/brasil.png" alt="" />
-              <p>Portugues near-native fluency</p>
-              <img
-                class="w-[24px]"
-                src="./img/estados-unidos-de-america.png"
-                alt=""
-              />
-              <p>English intermediate</p>
-            </div>
-
-            <div
-              class="w-full flex flex-col justify-center items-center my-5 p-2"
-            >
-              <a
-                class="hover:text-gray-800 hover:bg-white rounded-full hover:transition-transform duration-300 p-4"
-                href="./img/CV_Gabriel_Rengifo_actualizado.pdf"
-              >
-                <svg
-                  class="w-[48px] h-[48px] dark:text-white"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1
-           1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1
-           1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
-                  />
-                </svg>
-                <p>Resume</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+      <div
+        id="card"
+        class="projects-card flex overflow-x-scroll w-full gap-10 lg:grid lg:grid-cols-3"
+      ></div>
+    </section>
 
     <footer
       id="contact"
